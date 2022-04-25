@@ -15,7 +15,7 @@ pipeline
         {
             steps 
             {
-                echo 'Test this Application'
+                echo 'Test this Application triggered by git'
             }
         }
      stage('Deploy') 
