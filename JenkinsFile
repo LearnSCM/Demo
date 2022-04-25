@@ -8,7 +8,7 @@ pipeline
         {
             steps
             {
-                echo 'Build this Application through gitSCM '
+                echo 'Build this Application once again'
             }
         }
      stage('Test')
