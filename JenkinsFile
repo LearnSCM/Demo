@@ -8,7 +8,7 @@ pipeline
         {
             steps
             {
-                echo 'Build this Application'
+                echo 'Build this Application through git'
             }
         }
      stage('Test')
