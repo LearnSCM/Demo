@@ -22,8 +22,8 @@ pipeline
         {
             steps 
             {
-                echo 'Deploy this Appliation by git'
+                echo 'Deploy this Appliation triggerend by git '
             }
-        }
+        }  
     }
 }
