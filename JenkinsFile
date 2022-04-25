@@ -28,7 +28,7 @@ pipeline
     }
     post{
         always{
-            archiveArtifacts artifacts: 'artifact1', followSymlinks: false
+            archiveArtifacts artifacts: 'artifact12', followSymlinks: false
         }
     }
 }
