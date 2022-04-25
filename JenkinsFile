@@ -8,7 +8,7 @@ pipeline
         {
             steps
             {
-                echo 'Build Application'
+                echo 'Build this Application'
             }
         }
      stage('Test')
@@ -28,7 +28,7 @@ pipeline
     }
     post{
         always{
-            archiveArtifacts artifacts: 'artifact123', followSymlinks: false
+            archiveArtifacts artifacts: 'artifact', followSymlinks: false
         }
     }
 }
