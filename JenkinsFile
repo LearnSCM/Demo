@@ -22,7 +22,7 @@ pipeline
         {
             steps 
             {
-                echo 'Deploy this Appliation'
+                echo 'Deploy this Appliation by git'
             }
         }
     }
