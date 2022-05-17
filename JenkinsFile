@@ -8,7 +8,7 @@ pipeline
         {
             steps
             {
-                echo 'Build this Application once again thorugh git'
+                echo 'Testing Build this Application once again thorugh git'
             }
         }
      stage('Test')
